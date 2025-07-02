@@ -29,19 +29,19 @@
           </span>
         </a>
       </header>
-      <section class="mt-24 flex flex-col items-center">
+      <section class="mt-20 flex flex-col items-center">
         <SparklesText
           text="Nebula Flow"
           :colors="{ first: '#9E7AFF', second: '#FE8BBB' }"
           :sparkles-count="10"
-          class="my-8 text-white"
+          class="my-5 text-white"
         />
         <div class="text-white md:text-4xl text-2xl mb-4">
           Make your websites look 10x
         </div>
         <ContainerTextFlip
           :words="['better', 'modern', 'beautiful', 'awesome']"
-          class="!rounded-xl !bg-linear-to-r !from-pink-500 !to-violet-500 !text-5xl"
+          class="!rounded-xl !bg-linear-to-r !from-pink-500 !to-violet-500 !text-3xl !md:text-4xl"
         />
       </section>
       <div
