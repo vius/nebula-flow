@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+    assetsInclude: ['**/*.splinecode']
   },
   ui: {
     fonts: false,

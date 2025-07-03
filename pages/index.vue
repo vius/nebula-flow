@@ -50,7 +50,7 @@
         <section
           class="w-full fixed bottom-0 inset-x-0 h-[60vh] overflow-hidden"
         >
-          <Spline :scene="sceneUrl" />
+          <Spline :scene="SceneUrl" />
         </section>
       </div>
     </section>
@@ -62,6 +62,9 @@ import { Spline } from "@/components/ui/spline";
 import { ParticlesBg } from "@/components/ui/particles-bg";
 import { SparklesText } from "@/components/ui/sparkles-text";
 import { ContainerTextFlip } from "@/components/ui/container-text-flip";
-import LogoImage from "/assets/logo.png";
-const sceneUrl = "https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode";
+import LogoImage from "@/assets/logo.png";
+import SceneUrl from '@/assets/scene.splinecode'
+// const SceneUrl = "https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode";
+
 </script>
+
